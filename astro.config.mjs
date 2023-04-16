@@ -5,8 +5,8 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: 'https://pjiang93.github.io',
-  base: '/about-me',
+  site: 'https://github.com/PJiang93',
+  base: '/pjiang.github.io',
   integrations: [mdx(), sitemap(), tailwind()]
 
 })
