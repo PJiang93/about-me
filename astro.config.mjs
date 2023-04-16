@@ -5,8 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: 'https://pjiang93.github.io',
-  base: '/peng.jiang.github.io'
+  site: 'https://peng.jiang.com'
 })
 // https://astro.build/config
 // export default defineConfig({
