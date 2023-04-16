@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: 'https://pjiang93.github.io',
-  base: '/peng.jiang.github.io/',
+  base: '/about-me',
   integrations: [mdx(), sitemap(), tailwind()]
 
 })
