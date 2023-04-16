@@ -1,5 +1,5 @@
 ---
-const { title, subtitle, desc } = Astro.props;
+const { title, subtitle, desc,item_title } = Astro.props;
 ---
 
 <div class="flex">
@@ -10,8 +10,7 @@ const { title, subtitle, desc } = Astro.props;
   <div class="experience__data bd-grid px-5">
     <h3 class="font-semibold mb-1">{title}</h3>
     <span class="font-light text-sm">{subtitle}</span>
-    <p class="my-2 text-justify">
-      {desc}
-    </p>
+    <p class="my-2 text-justify">{desc}</p>
+    <!-- <li class="font-light text-sm">{item_title}</li> -->
   </div>
 </div>
