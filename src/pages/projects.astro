@@ -4,14 +4,25 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
 <BaseLayout title = "Projects">
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Research Projects</div>
-  </div>
+
   <HorizontalCard
   title="T3-CIDERS: A Train-the-Trainer Approach to Fostering CI- and Data-Enabled Research in Cybersecurityotlighting and Mitigating Cyber‐Attacks in AIoT‐enabled Maritime Transportation"
   img="/NSF_logo.png"
   desc="This collaborative project between Old Dominion University (ODU) and the University of Arizona (UA) aims to develop a unique Trainthe-Trainer Approach to Fostering CyberInfrastructure- and Data-Enabled Research in CyberSecurity (T3- CIDERS). The project will develop technical and pedagogic modules and train future trainers to support effective CI training for large-scale and diverse learners. The T3-CIDERS training will build upon the six CI modules produced by the NSF-funded “DeapSECURE” program, a hands-on introduction to crucial CI technologies directed at cybersecurity research applications."
   badge="Funded by NSF, Co-PI"
+  />
+  <HorizontalCard
+    title="Improving the Success of Low-Income Students in a Cybersecurity Program"
+    img="/NSF_logo.png"
+    url="https://www.odu.edu/cyber/stem"
+    badge="NSF, Co-PI"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="REU Site: Deep Learning Driven Cybersecurity Research in a Multidisciplinary Environment"
+    img="/NSF_logo.png"
+    url="https://ww1.odu.edu/eng/programs/ccni/research/cyber"
+    badge="NSF, Co-PI"
   />
   <HorizontalCard
     title="Spotlighting and Mitigating Cyber‐Attacks in AIoT‐enabled Maritime Transportation"
@@ -54,22 +65,6 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   />
 
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Education Projects</div>
-  </div>
 
-  <HorizontalCard
-    title="Improving the Success of Low-Income Students in a Cybersecurity Program"
-    img="/NSF_logo.png"
-    url="https://www.odu.edu/cyber/stem"
-    badge="NSF, Co-PI"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="REU Site: Deep Learning Driven Cybersecurity Research in a Multidisciplinary Environment"
-    img="/NSF_logo.png"
-    url="https://ww1.odu.edu/eng/programs/ccni/research/cyber"
-    badge="NSF, Co-PI"
-  />
 
 </BaseLayout>
